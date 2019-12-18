@@ -1,0 +1,75 @@
+@import 'vars';
+.html{
+    font-size: 65%;
+}
+
+.top{
+    position: relative;
+    background-color: cadetblue;
+    border: 5px solid $b;
+    font-size: 9rem;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container2{
+    max-height: 20%;
+    position: relative;
+    background-color: #85c4ff;
+    display: flex;
+    justify-content: space-around;
+    top: 60%;
+}
+.has{
+    background-image: url("../media/safe.jpg");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    height: 150rem;
+    position: absolute;
+}
+.flex-child{
+    margin: 4rem 0rem 3rem 0rem;
+    display: flex;
+    
+    max-width: 20%;;
+    height: 100%;
+    
+    text-align: center;
+    background-color: $background-color2;
+    border: 3px solid $text-color;
+    
+}
+.kinky{
+    height: 50%;
+}
+.shalom{
+    max-width:100%;
+    max-height:100%;
+}
+#the{
+    font-size: 3rem;
+}
+.flex-daddy{
+    max-width: 20%;
+    max-height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    border: 3px solid $b;
+}
+.img-box{
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
