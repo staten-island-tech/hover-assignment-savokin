@@ -17,6 +17,10 @@ html, body {
           justify-content: center;
 }
 
+.top:hover {
+  color: #9e2828;
+}
+
 .container {
   position: relative;
   background-color: #cccccc;
@@ -60,6 +64,10 @@ html, body {
   border: 3px solid #fdf900;
 }
 
+.flex-child:hover {
+  border: 3px solid #ca1919;
+}
+
 .kinky {
   height: 50%;
 }
@@ -72,10 +80,16 @@ html, body {
 .shalom:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  border: 3px solid #fdf900;
 }
 
 #the {
   font-size: 3rem;
+}
+
+#the:hover {
+  font-style: italic;
+  font-weight: bold;
 }
 
 .flex-daddy {
