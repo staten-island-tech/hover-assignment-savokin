@@ -21,6 +21,11 @@ html, body {
   color: #9e2828;
 }
 
+.img-box:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 .container {
   position: relative;
   background-color: #cccccc;

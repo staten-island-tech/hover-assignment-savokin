@@ -17,6 +17,9 @@ html, body{
 .top:hover{
     color: #9e2828;
 }
+.img-box:hover{
+    filter: invert(1);
+}
 .container{
     position: relative;
 
